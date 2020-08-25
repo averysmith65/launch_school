@@ -1,1 +1,0 @@
-# nothing will print because the block was not activated by the .call method

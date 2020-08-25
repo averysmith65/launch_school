@@ -1,1 +1,0 @@
-# hash contains key value pairs arrays do not
