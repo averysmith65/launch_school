@@ -7,8 +7,8 @@ def double_odd_numbers(numbers)
   loop do
     break if counter == numbers.size
 
-    current_number = numbers.each_index {|x| x.odd?}
-    current_number[counter] *= 2 
+    current_number = numbers[counter]
+    current_number *= 2 if counter.odd?
     doubled_numbers << current_number
 
     counter += 1
