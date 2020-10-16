@@ -3,7 +3,7 @@ def penultimate(string)
 	arr[-2]
 end
 
-p penultimate('last word') 
+penultimate('last word') 
 penultimate('Launch School is great!')
 
 p penultimate('last word') == 'last'
