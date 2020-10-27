@@ -60,7 +60,7 @@ loop do
 	  break if busted?(player_hand) 
 	end
 
-	
+	puts "you chose to stay!" if answer == 'stay'
 
 	loop do
 	  break if total(computer_hand) >= 17 
